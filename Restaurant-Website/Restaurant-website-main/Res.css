@@ -1,0 +1,280 @@
+.bars p{
+    text-align: center;
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding:10px;
+    
+}
+#background {
+    background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieW7zu_ATN4w/v0/-1x-1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#content div {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+.bars p :link{
+    color:black;
+}
+.bars p :visited{
+    color:black;
+}
+.bars p :hover{
+    color:red
+}
+#nav-bar{
+    text-align: center;
+    background-color: rgb(208, 208, 208);
+    padding:30px;
+}
+.bottom img {
+    width: 30px;
+    height: 30px; 
+    
+}
+.bottom {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    margin-bottom: 20px; 
+}
+.header{
+    text-align: center;
+    color:grey;
+    font-size: 15px;
+}
+#banner{
+    background-color: black;
+}
+
+#list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.cart-item img {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+.cart-item p {
+    margin: 0;
+}
+
+#Order {  /* Corrected the selector from #order to #Order */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+    
+}
+
+.Chicken-Alfredo{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Jerk-Back{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Fried-Dumplings{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Jamaican-Jerk-Sweet-Potato-Fries{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.Jamaican-Hot-Pepper-Shrimp{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.garlic{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.Bowl{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+}
+.garlic img{
+    width:300px
+}
+.Bowl img{
+    width:300px
+}
+
+#Order button {
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(255, 54, 54);
+}
+
+.checkout{
+    text-align: center;
+    background-color: white;
+}
+#list{
+    background-color: white;
+}
+.calculate{
+    background-color: white;
+    padding-left: auto;
+    padding-right: auto;
+}
+.calculate {
+    text-align: center;
+}
+
+.calculate button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: darkturquoise;
+    
+}
+.content-section {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px;
+    border-radius: 10px;
+}
+#Foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.Alfredo,
+.Dumplings,
+.Sweet-Potato-Fries,
+.Shrimp,
+.Jerk-Back-Ribs{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:azure;
+    box-shadow: 0 4px 8px 0 rgba(255, 250, 250, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#reservation-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#user-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}

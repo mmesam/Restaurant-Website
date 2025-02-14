@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Johnson's Mix</title>
+    <link rel="stylesheet" type="text/css" href="Rest.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <ul class="bars">
+            <h1>JOHNSON'S MIX</h1>
+            <p><a href="JohnsonMix.html">Home</a></p> <p><a href="location.html">location</a></p> <p><a href="aboutus.html">About us</a></p> <p><a href="menu.html">Menu</a></p> <p><a href="specials.html">Specials</a></p><p><a href="Order.html">Order Now</a></p><p><a href="Reservation.php">Reservations</a></p>
+        </ul>
+    </div>
+    <div id="background"></div>
+    <div id="Order">
+        <div class="Chicken-Alfredo">
+            <img src="Chicken alf.jpg">
+            <p>Chicken Alfredo</p>
+            <p>Price:$16</p>
+            <button onclick="addToCart('Chicken Alfredo ', 'Chicken alf.jpg', 16)">ADD TO CART</button>
+        </div>
+        <div class="Jerk-Back">
+            <img src="Ribs.jpg">
+            <p>Sticky Jamaican Jerk Back Ribs</p>
+            <p>Price:$20</p>
+            <button onclick="addToCart('Jerk Back ', 'Ribs.jpg', 20)">ADD TO CART</button>
+        </div>
+        <div class="Fried-Dumplings">
+            <img src="dumblings.jpg">
+            <p>Fried Dumplings</p>
+            <p>Price:$8</p>
+            <button onclick="addToCart('Fried Dumplings ', 'dumblings.jpg', 8)">ADD TO CART</button>
+        </div>
+        <div class="Jamaican-Jerk-Sweet-Potato-Fries">
+            <img src="Fries.jpg">
+            <p>Jamaican Jerk Sweet Potato Fries</p>
+            <p>Price:$9</p>
+            <button onclick="addToCart('Jamaican Jerk Sweet Potato Fries ', 'Fries.jpg', 9)">ADD TO CART</button>
+        </div>
+        <div class="Jamaican-Hot-Pepper-Shrimp">
+            <img src="Shrimp.jpg">
+            <p>Jamaican Hot Pepper Shrimp</p>
+            <p>Price:$13</p>
+            <button onclick="addToCart('Jamaican Hot Pepper Shrimp ', 'Shrimp.jpg', 13)">ADD TO CART</button>
+        </div>
+        <div class="garlic">
+            <img src="bread.jpg">
+            <p>Garlic Bread</p>
+            <p>Price:$7</p>
+            <button onclick="addToCart('Garlic Bread ', 'bread.jpg', 7)">ADD TO CART</button>
+        </div>
+        <div class="Bowl">
+            <img src="jamaica-style-jerk-steak-bowl-horizontal.jpg">
+            <p>Garlic Bread</p>
+            <p>Price:$19</p>
+            <button onclick="addToCart('Jamaican-Style Jerk Steak Bowl ', 'jamaica-style-jerk-steak-bowl-horizontal.jpg', 19)">ADD TO CART</button>
+        </div>
+    </div>
+    <div>
+        <h1 class="checkout">CheckOut</h1>
+        
+        <div id="list"></div>
+    </div>
+    <div class="calculate">
+        <button>Delivery</button><button>Pick-Up</button>
+    </div>
+    <div id="banner">
+        <div class="bottom">
+            <img src="Screenshot 2023-11-24 203813.png">
+            <img src="tik.png">
+            <img src="x.png">
+        </div>
+        <h1 class="header">COPYRIGHT © 2023  JOHNSON'S MIX - ALL RIGHTS RESERVED.</h1>
+    </div>
+    <script src="Rest.js"></script>
+</body>
+</html>
